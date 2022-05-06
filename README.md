@@ -28,7 +28,7 @@
 
     包含可嵌入到 bert 模型中根据部分层的输出向量进行训练的 **Adapter** 类，Adapter模型结构如下图所示：
 
-    ![adapter](.\image\adapter.jpg)
+    ![adapter](./image/adapter.jpg)
 
     Adapter 由两个线性投影层和一个N层的Transformer encoder 组成， 代码中 N=2，隐藏层维度为768。
 
